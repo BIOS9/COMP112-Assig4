@@ -1,0 +1,22 @@
+/* Reflection.txt for COMP112 - 2018T1, Assignment 4
+* Name: Matthew Corfiatis
+* Username: CorfiaMatt
+* ID: 300447277
+*/
+
+Questions for Reflection: 
+=========================
+
+1. The series of methods in ClassTimes were progressively more tricky. Identify
+what it was about the later ones that made them more difficult.
+
+2. The lines in classdata.txt were sorted by the coursecode. What queries would
+be easier or have nicer output if they had been sorted by one of the other columns?
+
+
+Answers for Reflection:
+========================
+
+The later questions had to combine and compare different data from different sources, this was what made it more difficult because I had to decide what data to grab from the file and where and how to store it. I also had to figure out how to compare the data, this was tricky for some data like the time because you cant just subtract the given time format to get a time span.
+
+Since the course collumn was sorted, all results returned are sorted by course. I was originally going to use a binary search to quickly find the requested data. I didn't end up doing this because it would only have worked for a course search, and the scanner doesn't have any way to skip or jump to lines in the file. I think any query where you want to see the course comes out with a nicer output because its sorted. If you were mainly looking at another field, it would have been nicer if it was sorted by that field. I could have sorted the output of my program based on user input, but I didn't see much point as the data returned by the program is usually not that large.
